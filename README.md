@@ -18,7 +18,7 @@ Para criar o bot exemplo do Hands on, siga os passos dessa sessão. Em resumo ba
    - [x] CREATE
 3. Clique em "Settings"
 4. Em General -> Marque "V1 API"
-5. Em Export and Import -> Import From Zip o Arquivo Exemplo
+5. Em Export and Import -> Import From Zip o Arquivo [Exemplo](https://github.com/soterocra/dialogflow-fulfillment-app/blob/master/DialogFlow-Cognition/Presentation_CrudTec.zip)
 
 
 
