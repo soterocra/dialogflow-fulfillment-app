@@ -2,7 +2,7 @@
 
 Este é o proje base para o Hands-On desenvolvido pela [CrudTec](https://crudtec.com.br) para fins de estudo.
 
-Contribuiçoes no projeto são bem-vindas.
+Contribuições no projeto são bem-vindas.
 
 
 
