@@ -8,21 +8,9 @@ Contribuições no projeto são bem-vindas.
 
 ## Crie o seu bot cognitivo
 
-Para criar o bot exemplo do Hands on, siga os passos dessa sessão. Em resumo basta importar o arquivo exemplo do DialogFlow e subir o ambiente no Heroku.
+Para criar o bot exemplo do Hands on, siga os passos dessa sessão. Em resumo subir o ambiente no Heroku e basta importar o arquivo exemplo do DialogFlow e.
 
-### 1 - Configurar DialogFlow
-
-1. Faça login no [DialogFlow](https://console.dialogflow.com/api-client/#/login)
-2. Clique em "Create new agent"
-   - [x] Default Language -> pt-br
-   - [x] CREATE
-3. Clique em "Settings"
-4. Em General -> Marque "V1 API"
-5. Em Export and Import -> Import From Zip o Arquivo [Exemplo](https://github.com/soterocra/dialogflow-fulfillment-app/blob/master/DialogFlow-Cognition/Presentation_CrudTec.zip)
-
-
-
-### 2 - Configurar Heroku
+### 1 - Configurar Heroku
 
 1 . Faça o fork desse projeto para sua conta
 
@@ -70,7 +58,19 @@ Para obter o nosso end-point da aplicação basta clicar no botão "View" que ap
 
 ![](img/online.png)
 
-Assim como dito na mensagem acima você deve colocar o end-point gerado pelo heroku /api no Fulfilmente do dialog flow.
+
+### 2 - Configurar DialogFlow
+
+1. Faça login no [DialogFlow](https://console.dialogflow.com/api-client/#/login)
+2. Clique em "Create new agent"
+   - [x] Default Language -> pt-br
+   - [x] CREATE
+3. Clique em "Settings"
+4. Em General -> Marque "V1 API"
+5. Em Export and Import -> Import From Zip o Arquivo [Exemplo](https://github.com/soterocra/dialogflow-fulfillment-app/blob/master/DialogFlow-Cognition/Presentation_CrudTec.zip)
+6. No menu lateral clique em "Fullfillment"
+   - [x] Habilite o Webhook -> Enable
+   - [x] Inserir o end-point gerado pelo heroku /api
 
 ## Suporte
 
