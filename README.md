@@ -24,7 +24,48 @@ Para criar o bot exemplo do Hands on, siga os passos dessa sessão. Em resumo ba
 
 ### 2 - Configurar Heroku
 
-Complemente aqui [soterocra](https://github.com/soterocra) 
+1 . Faça o fork desse projeto para sua conta
+
+![](img/fork.png)
+ 
+Ou simplesmente faça o download do projeto como zip e realize a extração.
+
+2 . Faça o login na sua conta Heroku
+```angular2html
+https://www.heroku.com/
+```
+
+3 . Procure a opção de criar um novo aplicativo:
+![](img/create_new_app.png)
+
+4 . Escolha um nome que estiver disponível:
+![](img/name_app.png)
+ 
+E clique em create app.
+ 
+5 . Na próxima tela conecte sua conta do Heroku com a do GIT HUB.
+
+![](img/connect.png)
+
+Aproveite e já insira também o nome do repositório e conecte ele a este aplicativo do Heroku.
+
+6 . Agora na aba Settings em Buildpacks vamos dizer ao Heroku em qual linguagem foi desenvolvida nossa aplicação.
+
+![](img/buildpack.png)
+
+Salve as configurações e retorne para a aba Deploy.
+
+7 . Vamos marcar deploy automatico para agilizar o desenvolvimento e também vamos pedir para que seja feito um deploy imediatado.
+
+![](img/deploy.png)
+
+
+Você deve ver um Log de carregamento da aplicação, ao finalizar é possível visualizar a mensagem "Deploy to Heroku" em verde.
+
+Para obter o nosso end-point da aplicação basta clicar no botão "View" que apareceu abaixo do log:
+
+![](img/deployed.png)
+
 
 ## Suporte
 

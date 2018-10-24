@@ -3,9 +3,12 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 def index():
+    return "A nossa API está <span style='color: green; font-size: 30px'>online</span> em /api"
+
+@app.route('/api/', methods=['POST'])
+def api():
     if request.headers.get('Authorization') == 'Basic bWV1dXN1YXJpbzptaW5oYXNlbmhh':
         rq_body = request.get_json()
 
