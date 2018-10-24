@@ -1,11 +1,12 @@
 import os
 from flask import Flask, jsonify, request
+from datetime import datetime
 
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def index():
-    return "A nossa API está <span style='color: green; font-size: 30px'>online</span> em /api"
+    return "A nossa API está <span style='color: green; font-size: 30px'>online</span> em /api/"
 
 @app.route('/api/', methods=['POST'])
 def api():
@@ -14,6 +15,11 @@ def api():
 
         if rq_body['result']['metadata']['intentName'] == 'Consultar_Hora':
             response = rq_body['result']['parameters']['date-time'][11:19]
+                if response == '':
+                    response = datetime.now().strftime('%H:%M:%S')
+                    response = "Sem parametro " + response
+                else:
+                    response = "Com parametro " + response
 
             return jsonify(
                 {
