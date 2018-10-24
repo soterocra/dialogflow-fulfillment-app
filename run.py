@@ -15,11 +15,12 @@ def api():
 
         if rq_body['result']['metadata']['intentName'] == 'Consultar_Hora':
             response = rq_body['result']['parameters']['date-time'][11:19]
-                if response == '':
-                    response = datetime.now().strftime('%H:%M:%S')
-                    response = "Sem parametro " + response
-                else:
-                    response = "Com parametro " + response
+
+            if response == '':
+                response = datetime.now().strftime('%H:%M:%S')
+                response = "Sem parametro " + response
+            else:
+                response = "Com parametro " + response
 
             return jsonify(
                 {
