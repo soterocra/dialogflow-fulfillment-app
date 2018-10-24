@@ -24,7 +24,7 @@ Para criar o bot exemplo do Hands on, siga os passos dessa sessão. Em resumo ba
 
 ### 2 - Configurar Heroku
 
-
+Complemente aqui [soterocra](https://github.com/soterocra) 
 
 ## Suporte
 
