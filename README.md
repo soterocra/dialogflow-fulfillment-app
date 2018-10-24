@@ -66,6 +66,11 @@ Para obter o nosso end-point da aplicação basta clicar no botão "View" que ap
 
 ![](img/deployed.png)
 
+8 . Ao clicar já é possível visualizar uma mensagem que configuramos no projeto dizendo que nossa API está online.
+
+![](img/online.png)
+
+Assim como dito na mensagem acima você deve colocar o end-point gerado pelo heroku /api no Fulfilmente do dialog flow.
 
 ## Suporte
 
